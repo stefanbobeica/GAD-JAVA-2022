@@ -67,10 +67,15 @@ public class Main {
      for(int i=1; i<=100; i++){
          FizzBuzz nr=new FizzBuzz(i);
          nr.print();
-     }*/
-
+     }
         System.out.println(compute2(105));
-
-
+   */
+       /* Integer[] test= new Integer[]{3,2,-3,-2,3,0,-4,4,0};
+        PairOfTwo perechi = new PairOfTwo(test);
+     System.out.print(perechi.pairs()); */
+        int i=1;
+        do{
+            System.out.print(i++);
+        } while (i != 5);
     }
 }
