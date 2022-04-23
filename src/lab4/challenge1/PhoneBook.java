@@ -28,8 +28,9 @@ public class PhoneBook {
          if(s!=null) s.close();
      }
      }
-     public Contact getContactByName(String name){
-        for (int  i=0; i< count;i++){
+     public Contact getContactByName(String name, int count){
+
+         for (int i = 0; i< count; i++){
             if(contacts[i].getName().equals(name))
                 return contacts[i];
         }
